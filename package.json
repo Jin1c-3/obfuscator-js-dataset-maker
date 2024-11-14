@@ -12,5 +12,8 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "javascript-obfuscator": "^4.1.1"
+  },
+  "dependencies": {
+    "cli-progress": "^3.12.0"
   }
 }
