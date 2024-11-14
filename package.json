@@ -1,0 +1,16 @@
+{
+  "name": "obfuscator-js-dataset-maker",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "制作混淆的js代码",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jin1c-3",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1"
+  }
+}
