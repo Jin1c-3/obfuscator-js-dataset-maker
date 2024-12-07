@@ -17,7 +17,7 @@ async function getTargetFile(dir) {
                 if(item.endsWith('.html')) {
                     console.log(simplify(code))
                 }
-                codes.set(itemPath.split("\\").slice(1).join('_'), simplify(code));
+                codes.set(path.relative(dir, itemPath).split(path.sep).join('_'), simplify(code));
             }
         })
     }

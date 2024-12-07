@@ -3,3 +3,4 @@ obfuscated_code
 pre_processed_code
 node_modules
 *test*
+.vscode
